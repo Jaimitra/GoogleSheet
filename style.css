@@ -1,0 +1,93 @@
+body {
+  margin: 50px;
+  /* font-size: 16px; */
+}
+#header {
+  height: 75vh;
+  width: 75vw;
+  overflow-x: scroll;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+#row {
+  width: 145vw;
+  height: 40px;
+  display: flex;
+}
+#cell {
+  min-width: 80px;
+  width: 120px;
+  min-height: 20px;
+  border: 2px solid grey;
+  margin: 1px;
+}
+
+.stickyrow {
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+  /* background-color: lightgrey; */
+  text-align: center;
+}
+.stickycol {
+  position: sticky;
+  left: 0px;
+  background-color: lightgrey;
+  text-align: center;
+}
+#head {
+  margin: 20px;
+}
+#head > i {
+  margin-left: 20px;
+  margin: 0px 20px;
+}
+.input {
+  width: 70px;
+  height: 30px;
+  border: none;
+  /* type: text; */
+}
+.input:focus {
+  outline: none;
+}
+.Bolder {
+  font-weight: bolder;
+}
+.Italic {
+  font-style: italic;
+}
+.UnderLine {
+  text-decoration: underline;
+}
+#head {
+  display: flex;
+}
+.LeftAlign {
+  text-align: left;
+}
+.RightAlign {
+  text-align: right;
+}
+.Center {
+  text-align: center;
+}
+.border {
+  border: solid 4px black;
+}
+#nav {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+#element {
+  /* background-color: lightgrey; */
+  font-size: xx-large;
+  padding-right: 15px;
+  /* padding: 2px; */
+}
+#elementbar {
+  padding: 8px;
+  width: 50vw;
+}
